@@ -1,0 +1,12 @@
+Title: Introduction to Artificial Intelligence and Machine Learning
+
+Artificial Intelligence (AI) is the field of computer science that focuses on creating intelligent machines capable of performing tasks that typically require human intelligence. These tasks include understanding language, recognizing patterns, solving problems, and making decisions.
+
+Machine Learning (ML) is a subset of AI that enables systems to learn from data and improve their performance without being explicitly programmed. ML algorithms use historical data to make predictions or decisions.
+
+There are three main types of machine learning:
+1. Supervised Learning
+2. Unsupervised Learning
+3. Reinforcement Learning
+
+AI and ML are transforming industries such as healthcare, finance, transportation, and education. As these technologies evolve, they continue to shape the future of innovation and automation.
