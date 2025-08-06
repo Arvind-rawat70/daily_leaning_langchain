@@ -1,28 +1,25 @@
-📅 What I Learned Today (2025-08-05)
-✅ LangChain Basics
+## 📅 What I Learned Today (2025-08-05)
 
-Understanding how to use ChatPromptTemplate to structure conversations.
+✅ **LangChain Basics**  
+- Used `ChatPromptTemplate` to structure conversations.  
+- Built chains using `|` operator: `prompt | llm | output_parser`.
 
-Creating chains using the | operator in LangChain: prompt | llm | output_parser.
+✅ **LCEL (LangChain Expression Language)**  
+- Learned how LCEL simplifies chaining steps using the `|` operator.  
+- Built modular, readable pipelines for prompt → LLM → parser workflows.  
+- Understood how LCEL improves code reusability and flexibility.
 
-✅ Ollama LLM Integration
+✅ **Ollama LLM Integration**  
+- Used Ollama with `gemma:2b` model for local inference.  
+- Installed and imported `langchain_community.llms.Ollama`.
 
-Used Ollama with the gemma:2b model for local inference.
+✅ **Output Parsing**  
+- Learned to use `StrOutputParser` to extract clean text from LLM responses.
 
-Installed and initialized the langchain_community.llms.Ollama module.
+✅ **Streamlit App**  
+- Created a basic Streamlit UI for user question input.  
+- Displayed LLM responses dynamically.
 
-✅ Output Parsing
-
-Learned about StrOutputParser to extract string output from the LLM responses.
-
-✅ Streamlit App
-
-Created a basic interface using Streamlit where the user can input a question.
-
-Displayed LLM-generated responses based on the user prompt.
-
-✅ Fixed Common Errors
-
-Solved ModuleNotFoundError by installing required LangChain modules.
-
-Understood how LangChain modules are organized (e.g., langchain_core, langchain_community).
+✅ **Fixed Common Errors**  
+- Solved `ModuleNotFoundError` by installing missing modules.  
+- Understood module structure: `langchain_core`, `langchain_community`, etc.
